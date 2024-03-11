@@ -1,0 +1,117 @@
+/* Name: Hannah C. Perona */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F2BED1;
+    color: #333;
+}
+
+header {
+    background-color: #B5C0D0;
+    color: #1520A6;
+    padding: 10px;
+}
+
+table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.class1 {
+    background-color: #ffe4e1;
+    color: #333;
+}
+
+.class2 {
+    background-color: #add8e6;
+    color: #333;
+}
+
+.class3 {
+    background-color: #98fb98;
+    color: #333;
+}
+.meet{
+    font-weight: bold;
+    color: #ff4500;
+    background-color: #add8e6;
+}
+
+.lab {
+    font-weight: bold;
+    color: #ff4500;
+    background-color: #98fb98;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+        font-family: "Times New Roman", serif;
+    }
+
+    th, td {
+        border: 1px solid #000;
+        background-color: #fff;
+        color: #000;
+    }
+
+    th {
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .class1 {
+        background-color: #fff;
+    }
+
+    .class2 {
+        background-color: #ccc;
+    }
+
+    .class3 {
+        background-color: #ddd;
+    }
+
+    .lab {
+        font-weight: bold;
+        color: #ff4500;
+    }
+
+    a {
+        color: #000;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+img {
+    max-width: 200px;
+    height: 180px;
+    display: block;
+    margin: 20px auto;
+}
